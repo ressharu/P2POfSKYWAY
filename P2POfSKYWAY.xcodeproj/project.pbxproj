@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		439200742C2B184300D5B4C6 /* P2POfSKYWAYApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439200732C2B184300D5B4C6 /* P2POfSKYWAYApp.swift */; };
+		439200762C2B184300D5B4C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439200752C2B184300D5B4C6 /* ContentView.swift */; };
+		439200782C2B184300D5B4C6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439200772C2B184300D5B4C6 /* Item.swift */; };
+		4392007A2C2B184400D5B4C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439200792C2B184400D5B4C6 /* Assets.xcassets */; };
+		4392007E2C2B184400D5B4C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4392007D2C2B184400D5B4C6 /* Preview Assets.xcassets */; };
+		439200882C2B184400D5B4C6 /* P2POfSKYWAYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439200872C2B184400D5B4C6 /* P2POfSKYWAYTests.swift */; };
+		439200922C2B184400D5B4C6 /* P2POfSKYWAYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439200912C2B184400D5B4C6 /* P2POfSKYWAYUITests.swift */; };
+		439200942C2B184400D5B4C6 /* P2POfSKYWAYUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439200932C2B184400D5B4C6 /* P2POfSKYWAYUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		439200842C2B184400D5B4C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 439200682C2B184300D5B4C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4392006F2C2B184300D5B4C6;
+			remoteInfo = P2POfSKYWAY;
+		};
+		4392008E2C2B184400D5B4C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 439200682C2B184300D5B4C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4392006F2C2B184300D5B4C6;
+			remoteInfo = P2POfSKYWAY;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		439200702C2B184300D5B4C6 /* P2POfSKYWAY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P2POfSKYWAY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		439200732C2B184300D5B4C6 /* P2POfSKYWAYApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2POfSKYWAYApp.swift; sourceTree = "<group>"; };
+		439200752C2B184300D5B4C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		439200772C2B184300D5B4C6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		439200792C2B184400D5B4C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4392007B2C2B184400D5B4C6 /* P2POfSKYWAY.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = P2POfSKYWAY.entitlements; sourceTree = "<group>"; };
+		4392007D2C2B184400D5B4C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		439200832C2B184400D5B4C6 /* P2POfSKYWAYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = P2POfSKYWAYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		439200872C2B184400D5B4C6 /* P2POfSKYWAYTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2POfSKYWAYTests.swift; sourceTree = "<group>"; };
+		4392008D2C2B184400D5B4C6 /* P2POfSKYWAYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = P2POfSKYWAYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		439200912C2B184400D5B4C6 /* P2POfSKYWAYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2POfSKYWAYUITests.swift; sourceTree = "<group>"; };
+		439200932C2B184400D5B4C6 /* P2POfSKYWAYUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2POfSKYWAYUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4392006D2C2B184300D5B4C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439200802C2B184400D5B4C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4392008A2C2B184400D5B4C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		439200672C2B184300D5B4C6 = {
+			isa = PBXGroup;
+			children = (
+				439200722C2B184300D5B4C6 /* P2POfSKYWAY */,
+				439200862C2B184400D5B4C6 /* P2POfSKYWAYTests */,
+				439200902C2B184400D5B4C6 /* P2POfSKYWAYUITests */,
+				439200712C2B184300D5B4C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		439200712C2B184300D5B4C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				439200702C2B184300D5B4C6 /* P2POfSKYWAY.app */,
+				439200832C2B184400D5B4C6 /* P2POfSKYWAYTests.xctest */,
+				4392008D2C2B184400D5B4C6 /* P2POfSKYWAYUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		439200722C2B184300D5B4C6 /* P2POfSKYWAY */ = {
+			isa = PBXGroup;
+			children = (
+				439200732C2B184300D5B4C6 /* P2POfSKYWAYApp.swift */,
+				439200752C2B184300D5B4C6 /* ContentView.swift */,
+				439200772C2B184300D5B4C6 /* Item.swift */,
+				439200792C2B184400D5B4C6 /* Assets.xcassets */,
+				4392007B2C2B184400D5B4C6 /* P2POfSKYWAY.entitlements */,
+				4392007C2C2B184400D5B4C6 /* Preview Content */,
+			);
+			path = P2POfSKYWAY;
+			sourceTree = "<group>";
+		};
+		4392007C2C2B184400D5B4C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4392007D2C2B184400D5B4C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		439200862C2B184400D5B4C6 /* P2POfSKYWAYTests */ = {
+			isa = PBXGroup;
+			children = (
+				439200872C2B184400D5B4C6 /* P2POfSKYWAYTests.swift */,
+			);
+			path = P2POfSKYWAYTests;
+			sourceTree = "<group>";
+		};
+		439200902C2B184400D5B4C6 /* P2POfSKYWAYUITests */ = {
+			isa = PBXGroup;
+			children = (
+				439200912C2B184400D5B4C6 /* P2POfSKYWAYUITests.swift */,
+				439200932C2B184400D5B4C6 /* P2POfSKYWAYUITestsLaunchTests.swift */,
+			);
+			path = P2POfSKYWAYUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4392006F2C2B184300D5B4C6 /* P2POfSKYWAY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439200972C2B184400D5B4C6 /* Build configuration list for PBXNativeTarget "P2POfSKYWAY" */;
+			buildPhases = (
+				4392006C2C2B184300D5B4C6 /* Sources */,
+				4392006D2C2B184300D5B4C6 /* Frameworks */,
+				4392006E2C2B184300D5B4C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = P2POfSKYWAY;
+			productName = P2POfSKYWAY;
+			productReference = 439200702C2B184300D5B4C6 /* P2POfSKYWAY.app */;
+			productType = "com.apple.product-type.application";
+		};
+		439200822C2B184400D5B4C6 /* P2POfSKYWAYTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4392009A2C2B184400D5B4C6 /* Build configuration list for PBXNativeTarget "P2POfSKYWAYTests" */;
+			buildPhases = (
+				4392007F2C2B184400D5B4C6 /* Sources */,
+				439200802C2B184400D5B4C6 /* Frameworks */,
+				439200812C2B184400D5B4C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				439200852C2B184400D5B4C6 /* PBXTargetDependency */,
+			);
+			name = P2POfSKYWAYTests;
+			productName = P2POfSKYWAYTests;
+			productReference = 439200832C2B184400D5B4C6 /* P2POfSKYWAYTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4392008C2C2B184400D5B4C6 /* P2POfSKYWAYUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4392009D2C2B184400D5B4C6 /* Build configuration list for PBXNativeTarget "P2POfSKYWAYUITests" */;
+			buildPhases = (
+				439200892C2B184400D5B4C6 /* Sources */,
+				4392008A2C2B184400D5B4C6 /* Frameworks */,
+				4392008B2C2B184400D5B4C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4392008F2C2B184400D5B4C6 /* PBXTargetDependency */,
+			);
+			name = P2POfSKYWAYUITests;
+			productName = P2POfSKYWAYUITests;
+			productReference = 4392008D2C2B184400D5B4C6 /* P2POfSKYWAYUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		439200682C2B184300D5B4C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4392006F2C2B184300D5B4C6 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					439200822C2B184400D5B4C6 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 4392006F2C2B184300D5B4C6;
+					};
+					4392008C2C2B184400D5B4C6 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 4392006F2C2B184300D5B4C6;
+					};
+				};
+			};
+			buildConfigurationList = 4392006B2C2B184300D5B4C6 /* Build configuration list for PBXProject "P2POfSKYWAY" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 439200672C2B184300D5B4C6;
+			productRefGroup = 439200712C2B184300D5B4C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4392006F2C2B184300D5B4C6 /* P2POfSKYWAY */,
+				439200822C2B184400D5B4C6 /* P2POfSKYWAYTests */,
+				4392008C2C2B184400D5B4C6 /* P2POfSKYWAYUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4392006E2C2B184300D5B4C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4392007E2C2B184400D5B4C6 /* Preview Assets.xcassets in Resources */,
+				4392007A2C2B184400D5B4C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439200812C2B184400D5B4C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4392008B2C2B184400D5B4C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4392006C2C2B184300D5B4C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439200762C2B184300D5B4C6 /* ContentView.swift in Sources */,
+				439200782C2B184300D5B4C6 /* Item.swift in Sources */,
+				439200742C2B184300D5B4C6 /* P2POfSKYWAYApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4392007F2C2B184400D5B4C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439200882C2B184400D5B4C6 /* P2POfSKYWAYTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439200892C2B184400D5B4C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439200942C2B184400D5B4C6 /* P2POfSKYWAYUITestsLaunchTests.swift in Sources */,
+				439200922C2B184400D5B4C6 /* P2POfSKYWAYUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		439200852C2B184400D5B4C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4392006F2C2B184300D5B4C6 /* P2POfSKYWAY */;
+			targetProxy = 439200842C2B184400D5B4C6 /* PBXContainerItemProxy */;
+		};
+		4392008F2C2B184400D5B4C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4392006F2C2B184300D5B4C6 /* P2POfSKYWAY */;
+			targetProxy = 4392008E2C2B184400D5B4C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		439200952C2B184400D5B4C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		439200962C2B184400D5B4C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		439200982C2B184400D5B4C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = P2POfSKYWAY/P2POfSKYWAY.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"P2POfSKYWAY/Preview Content\"";
+				DEVELOPMENT_TEAM = F82XB5KFX2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ress.P2POfSKYWAY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		439200992C2B184400D5B4C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = P2POfSKYWAY/P2POfSKYWAY.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"P2POfSKYWAY/Preview Content\"";
+				DEVELOPMENT_TEAM = F82XB5KFX2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ress.P2POfSKYWAY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4392009B2C2B184400D5B4C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F82XB5KFX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ress.P2POfSKYWAYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P2POfSKYWAY.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/P2POfSKYWAY";
+			};
+			name = Debug;
+		};
+		4392009C2C2B184400D5B4C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F82XB5KFX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ress.P2POfSKYWAYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P2POfSKYWAY.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/P2POfSKYWAY";
+			};
+			name = Release;
+		};
+		4392009E2C2B184400D5B4C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F82XB5KFX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ress.P2POfSKYWAYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = P2POfSKYWAY;
+			};
+			name = Debug;
+		};
+		4392009F2C2B184400D5B4C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F82XB5KFX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ress.P2POfSKYWAYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = P2POfSKYWAY;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4392006B2C2B184300D5B4C6 /* Build configuration list for PBXProject "P2POfSKYWAY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439200952C2B184400D5B4C6 /* Debug */,
+				439200962C2B184400D5B4C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		439200972C2B184400D5B4C6 /* Build configuration list for PBXNativeTarget "P2POfSKYWAY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439200982C2B184400D5B4C6 /* Debug */,
+				439200992C2B184400D5B4C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4392009A2C2B184400D5B4C6 /* Build configuration list for PBXNativeTarget "P2POfSKYWAYTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4392009B2C2B184400D5B4C6 /* Debug */,
+				4392009C2C2B184400D5B4C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4392009D2C2B184400D5B4C6 /* Build configuration list for PBXNativeTarget "P2POfSKYWAYUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4392009E2C2B184400D5B4C6 /* Debug */,
+				4392009F2C2B184400D5B4C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 439200682C2B184300D5B4C6 /* Project object */;
+}
